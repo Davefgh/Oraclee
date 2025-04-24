@@ -1,9 +1,221 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.14">
   <diagram name="Page-1" id="xVktdh34jHoBV_LkHrUM">
-    <mxGraphModel>
+    <mxGraphModel dx="5603" dy="2650" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="D96XJv7KgCPz0l_krTmF-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="D96XJv7KgCPz0l_krTmF-1" target="D96XJv7KgCPz0l_krTmF-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D96XJv7KgCPz0l_krTmF-1" value="&lt;font&gt;&lt;span&gt;LTO Officer accesses LTO portal&amp;nbsp;&lt;/span&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=light-dark(#000000, #ffffff);fontColor=light-dark(#000000,#000000);fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="115" y="80" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="D96XJv7KgCPz0l_krTmF-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="D96XJv7KgCPz0l_krTmF-2" target="D96XJv7KgCPz0l_krTmF-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D96XJv7KgCPz0l_krTmF-2" value="&lt;font&gt;&lt;span&gt;System checks LTO Officer credentials&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#000000, #ffffff);fontColor=light-dark(#000000,#000000);fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="110" y="230" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="D96XJv7KgCPz0l_krTmF-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="D96XJv7KgCPz0l_krTmF-3" target="D96XJv7KgCPz0l_krTmF-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D96XJv7KgCPz0l_krTmF-3" value="Enter LTO Officer email/password" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=light-dark(#000000, #ffffff);fontColor=light-dark(#000000,#000000);fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="100" y="390" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="D96XJv7KgCPz0l_krTmF-7" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;No&lt;/font&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="D96XJv7KgCPz0l_krTmF-4" target="D96XJv7KgCPz0l_krTmF-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-50" y="615" />
+              <mxPoint x="-50" y="440" />
+              <mxPoint x="110" y="440" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D96XJv7KgCPz0l_krTmF-72" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Yes&lt;/font&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="D96XJv7KgCPz0l_krTmF-4" target="D96XJv7KgCPz0l_krTmF-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D96XJv7KgCPz0l_krTmF-4" value="Valid LTO Officer credentials?" style="rhombus;whiteSpace=wrap;html=1;fillColor=light-dark(#000000, #ffffff);fontColor=light-dark(#000000,#000000);fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="95" y="540" width="180" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="D96XJv7KgCPz0l_krTmF-73" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="D96XJv7KgCPz0l_krTmF-11" target="D96XJv7KgCPz0l_krTmF-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D96XJv7KgCPz0l_krTmF-11" value="Load LTO Officer Dashboard" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#000000, #ffffff);fontColor=light-dark(#000000,#000000);fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="395" y="575" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="D96XJv7KgCPz0l_krTmF-74" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="D96XJv7KgCPz0l_krTmF-12" target="D96XJv7KgCPz0l_krTmF-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D96XJv7KgCPz0l_krTmF-12" value="Display pending registrations queue" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#000000, #ffffff);fontColor=light-dark(#000000,#000000);fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="395" y="750" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="D96XJv7KgCPz0l_krTmF-88" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Process vehicle Registration&lt;/font&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="D96XJv7KgCPz0l_krTmF-13" target="D96XJv7KgCPz0l_krTmF-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D96XJv7KgCPz0l_krTmF-13" value="LTO Officer action selection?" style="rhombus;whiteSpace=wrap;html=1;fillColor=light-dark(#000000, #ffffff);fontColor=light-dark(#000000,#000000);fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="380" y="900" width="180" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="D96XJv7KgCPz0l_krTmF-89" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="D96XJv7KgCPz0l_krTmF-15" target="D96XJv7KgCPz0l_krTmF-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D96XJv7KgCPz0l_krTmF-15" value="Display registration requests list" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#000000, #ffffff);fontColor=light-dark(#000000,#000000);fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="395" y="1150" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="D96XJv7KgCPz0l_krTmF-61" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="D96XJv7KgCPz0l_krTmF-16" target="D96XJv7KgCPz0l_krTmF-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D96XJv7KgCPz0l_krTmF-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="D96XJv7KgCPz0l_krTmF-16" target="D96XJv7KgCPz0l_krTmF-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D96XJv7KgCPz0l_krTmF-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="D96XJv7KgCPz0l_krTmF-16" target="D96XJv7KgCPz0l_krTmF-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D96XJv7KgCPz0l_krTmF-16" value="Select registration to review?" style="rhombus;whiteSpace=wrap;html=1;fillColor=light-dark(#000000, #ffffff);fontColor=light-dark(#000000,#000000);fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="380" y="1320" width="180" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="D96XJv7KgCPz0l_krTmF-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="D96XJv7KgCPz0l_krTmF-18" target="D96XJv7KgCPz0l_krTmF-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D96XJv7KgCPz0l_krTmF-18" value="Display detailed vehicle information" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#000000, #ffffff);fontColor=light-dark(#000000,#000000);fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="190" y="1540" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="D96XJv7KgCPz0l_krTmF-60" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="D96XJv7KgCPz0l_krTmF-19" target="D96XJv7KgCPz0l_krTmF-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D96XJv7KgCPz0l_krTmF-19" value="Review owner information" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#000000, #ffffff);fontColor=light-dark(#000000,#000000);fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="395" y="1540" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="D96XJv7KgCPz0l_krTmF-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="D96XJv7KgCPz0l_krTmF-20" target="D96XJv7KgCPz0l_krTmF-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D96XJv7KgCPz0l_krTmF-20" value="Verify documentation" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#000000, #ffffff);fontColor=light-dark(#000000,#000000);fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="610" y="1540" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="D96XJv7KgCPz0l_krTmF-40" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Request Additional Information&lt;/font&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.433;entryY=-0.04;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="D96XJv7KgCPz0l_krTmF-21" target="D96XJv7KgCPz0l_krTmF-22">
+          <mxGeometry x="-0.0696" y="75" relative="1" as="geometry">
+            <mxPoint x="-320.00000000000045" y="1765" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-325" y="1765" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D96XJv7KgCPz0l_krTmF-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="D96XJv7KgCPz0l_krTmF-21" target="D96XJv7KgCPz0l_krTmF-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="9.999999999999545" y="1765" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D96XJv7KgCPz0l_krTmF-58" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Manage Plate Inventory:&lt;/font&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="D96XJv7KgCPz0l_krTmF-21" target="D96XJv7KgCPz0l_krTmF-38">
+          <mxGeometry x="0.7447" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D96XJv7KgCPz0l_krTmF-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="D96XJv7KgCPz0l_krTmF-21" target="D96XJv7KgCPz0l_krTmF-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D96XJv7KgCPz0l_krTmF-102" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Logout&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="D96XJv7KgCPz0l_krTmF-59">
+          <mxGeometry x="0.8274" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D96XJv7KgCPz0l_krTmF-94" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="D96XJv7KgCPz0l_krTmF-21" target="D96XJv7KgCPz0l_krTmF-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D96XJv7KgCPz0l_krTmF-101" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;View Registration History:&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="D96XJv7KgCPz0l_krTmF-94">
+          <mxGeometry x="0.144" y="-3" relative="1" as="geometry">
+            <mxPoint x="31" y="27" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D96XJv7KgCPz0l_krTmF-98" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="D96XJv7KgCPz0l_krTmF-21" target="D96XJv7KgCPz0l_krTmF-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D96XJv7KgCPz0l_krTmF-99" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Reject&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="D96XJv7KgCPz0l_krTmF-98">
+          <mxGeometry x="0.088" y="-3" relative="1" as="geometry">
+            <mxPoint x="-43" y="33" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D96XJv7KgCPz0l_krTmF-21" value="Registration decision?" style="rhombus;whiteSpace=wrap;html=1;fillColor=light-dark(#000000, #ffffff);fontColor=light-dark(#000000,#000000);fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="380" y="1690" width="180" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="D96XJv7KgCPz0l_krTmF-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="D96XJv7KgCPz0l_krTmF-22" target="D96XJv7KgCPz0l_krTmF-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D96XJv7KgCPz0l_krTmF-22" value="Generate official plate number" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#000000, #ffffff);fontColor=light-dark(#000000,#000000);fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="-390" y="1880" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="D96XJv7KgCPz0l_krTmF-23" value="Send approval notification" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#000000, #ffffff);fontColor=light-dark(#000000,#000000);fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="-390" y="2400" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="D96XJv7KgCPz0l_krTmF-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="D96XJv7KgCPz0l_krTmF-24" target="D96XJv7KgCPz0l_krTmF-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D96XJv7KgCPz0l_krTmF-24" value="Set plate issue date" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#000000, #ffffff);fontColor=light-dark(#000000,#000000);fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="-390" y="2220" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="D96XJv7KgCPz0l_krTmF-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="D96XJv7KgCPz0l_krTmF-25" target="D96XJv7KgCPz0l_krTmF-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D96XJv7KgCPz0l_krTmF-25" value="Update registration status" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#000000, #ffffff);fontColor=light-dark(#000000,#000000);fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="-390" y="2050" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="D96XJv7KgCPz0l_krTmF-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="D96XJv7KgCPz0l_krTmF-27" target="D96XJv7KgCPz0l_krTmF-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D96XJv7KgCPz0l_krTmF-27" value="Specify required information" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=light-dark(#000000, #ffffff);fontColor=light-dark(#000000,#000000);fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="-80" y="1890" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="D96XJv7KgCPz0l_krTmF-28" value="Send information request" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#000000, #ffffff);fontColor=light-dark(#000000,#000000);fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="-70" y="2220" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="D96XJv7KgCPz0l_krTmF-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="D96XJv7KgCPz0l_krTmF-29" target="D96XJv7KgCPz0l_krTmF-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D96XJv7KgCPz0l_krTmF-29" value="Update registration status" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#000000, #ffffff);fontColor=light-dark(#000000,#000000);fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="-70" y="2050" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="D96XJv7KgCPz0l_krTmF-51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="D96XJv7KgCPz0l_krTmF-30" target="D96XJv7KgCPz0l_krTmF-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D96XJv7KgCPz0l_krTmF-30" value="Document rejection reason" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=light-dark(#000000, #ffffff);fontColor=light-dark(#000000,#000000);fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="275" y="2000" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="D96XJv7KgCPz0l_krTmF-97" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="D96XJv7KgCPz0l_krTmF-32" target="D96XJv7KgCPz0l_krTmF-96">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D96XJv7KgCPz0l_krTmF-32" value="Update registration status" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#000000, #ffffff);fontColor=light-dark(#000000,#000000);fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="285" y="2160" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="D96XJv7KgCPz0l_krTmF-33" value="Filter by status/date" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#000000, #ffffff);fontColor=light-dark(#000000,#000000);fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="495" y="2160" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="D96XJv7KgCPz0l_krTmF-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="D96XJv7KgCPz0l_krTmF-34" target="D96XJv7KgCPz0l_krTmF-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D96XJv7KgCPz0l_krTmF-34" value="Display processed registrations" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#000000, #ffffff);fontColor=light-dark(#000000,#000000);fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="495" y="2000" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="D96XJv7KgCPz0l_krTmF-36" value="Redirect to LTO Officer Login" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#000000, #ffffff);fontColor=light-dark(#000000,#000000);fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1090" y="2050" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="D96XJv7KgCPz0l_krTmF-55" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="D96XJv7KgCPz0l_krTmF-37" target="D96XJv7KgCPz0l_krTmF-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D96XJv7KgCPz0l_krTmF-37" value="Clear LTO Officer authentication" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#000000, #ffffff);fontColor=light-dark(#000000,#000000);fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1090" y="1890" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="D96XJv7KgCPz0l_krTmF-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="D96XJv7KgCPz0l_krTmF-38" target="D96XJv7KgCPz0l_krTmF-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D96XJv7KgCPz0l_krTmF-38" value="Display plate number inventory" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#000000, #ffffff);fontColor=light-dark(#000000,#000000);fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="830" y="1890" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="D96XJv7KgCPz0l_krTmF-39" value="Update plate assignments" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#000000, #ffffff);fontColor=light-dark(#000000,#000000);fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="830" y="2050" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="D96XJv7KgCPz0l_krTmF-96" value="Send rejection notification" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#000000, #ffffff);fontColor=light-dark(#000000,#000000);fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="285" y="2300" width="150" height="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
